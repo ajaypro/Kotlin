@@ -54,8 +54,6 @@ class Trucks<E>{
         }
         return result
     }
-
-
 }
 
 fun main(args: Array<String>){
