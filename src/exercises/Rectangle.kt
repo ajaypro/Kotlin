@@ -29,6 +29,6 @@ fun main(args: Array<String>) {
     val stretched = Rectangle.fromString("42 1")
     println(stretched)
 
-    val invalid = Rectangle.fromString("2;3")
+    val invalid = Rectangle.fromString("2 3")
     println(invalid)
 }
