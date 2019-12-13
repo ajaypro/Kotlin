@@ -27,7 +27,7 @@ fun main(args:Array<String>){
 
        // Here let is safe call operator that will execute code inside {} only if string is nullable type.
        str?.let {
-              if(str.isNotEmpty()){ // Here we can call sting object directly without ? operator
+              if(str.isNotEmpty()){ // Here we can call string object directly without ? operator
                      str.toLowerCase()
               }
        }

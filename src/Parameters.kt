@@ -1,3 +1,5 @@
+
+
 /**
  * @Author Ajay on 03-10-2018.
  */
@@ -10,8 +12,6 @@ fun main(args: Array<String>){
     // different orders of arguments can be used as long as arguments types are mentioned
     val value = concat(separator=":", words = listOf("kotlin", "Java", "Bentely"))
     print("$value")
-
-
 }
  // 2nd argument separator has default values mentioned
 fun concat(words: List<String>, separator:String = " -") = words.joinToString(separator)

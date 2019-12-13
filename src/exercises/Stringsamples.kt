@@ -18,7 +18,6 @@ data class Year(private val year: Int){
         else -> false
 
     }
-
     private fun Int.isDivisible(divisor: Int): Boolean = this % divisor == 0
 }
 
